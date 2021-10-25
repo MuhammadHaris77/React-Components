@@ -1,7 +1,69 @@
+.input{
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
 .App {
   text-align: center;
+
+background-color: #2F4F4F
+
+}
+.nav-bar{
+   text-align: center;
+   background-color: darkcyan;
+   padding: 10px;
+   }
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.display-product{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
+.search{
+  height: 55px;
+}
+.main{
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px 5px black;
+  margin: 50px auto;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+
+  
+}
+.select{
+  background-color: white;
+  border-radius: 10px;
+}
+.detail{
+  text-align: center;
+  padding-left: 10px;
+}
+.main:hover{
+  background-color: skyblue;
+
+}
+h1{
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+h6{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+h5{
+  font-size: 15px;
+  letter-spacing: 3px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
